@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(120deg, #25019c, #000000, #550000);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}

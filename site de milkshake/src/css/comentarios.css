@@ -1,0 +1,76 @@
+.comentarios {
+  width: 100%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(0,0,0,0.7);
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.comentarios h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.comentarios textarea {
+  width: 100%;
+  height: 80px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  resize: none;
+  font-size: 1rem;
+}
+
+.comentarios button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #e02f2f;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.comentarios button:hover {
+  background: #ff4b4b;
+}
+
+#listaComentarios {
+  margin-top: 20px;
+}
+
+.comentario {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comentario-item {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botao-excluir {
+  background-color: #ff4040;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.botao-excluir:hover {
+  background-color: #cc0000;
+}

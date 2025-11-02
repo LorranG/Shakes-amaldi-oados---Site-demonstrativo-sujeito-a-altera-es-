@@ -1,0 +1,14 @@
+.footer {
+color: white;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1rem;
+    font-family: 'poppins', sans-serif;
+    opacity: 0.8;
+    transition: opacity 0.3 ease;
+}
+
+.footer:hover {
+    opacity: 1;
+}

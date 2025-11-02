@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shakes Amaldiçoados</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/estilo.css">
+  <link rel="stylesheet" href="src/css/personagens.css">
+  <link rel="stylesheet" href="src/css/menu.css">
+  <link rel="stylesheet" href="src/css/footer.css">
+  <link rel="stylesheet" href="src/css/fundo.css">
+  <link rel="stylesheet" href="src/css/comentarios.css">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon"
+    href="https://imgs.search.brave.com/orz3LPgtPBlyYro2a_Bcj8wiVzFSxXj9shkl1T_UI8Y/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9RX05QXzJY/XzYxNDQ4NC1NTE04/MDA2NTQ0NDMzOV8x/MDIwMjQtRS1jaGFp/bnNhdy1tYW4tcGVs/dWNoZS1tYWtpbWEt/cG9jaGl0YS1wb3dl/ci1kZW5qaS0wMS53/ZWJw">
+</head>
+
+
+<body>
+
+  <main class="personagens">
+
+    <!-- Gojo -->
+    <div class="personagem selecionado" id="gojo-card">
+      <div class="titulo">
+        <h2 class="nome-personagem">Gojo</h2>
+      </div>
+      <picture>
+        <source srcset="src/img/gojo.png" media="(min-width: 768px)">
+        <img class="imagem" src="src/img/gojo.png" alt="Personagem Gojo">
+      </picture>
+      <div class="conteudo">
+        <p class="descricao">Base de morango e blueberry, chantilly e bolinhas de chocolate.</p>
+      </div>
+    </div>
+
+    <!-- Megumi -->
+    <div class="personagem selecionado" id="megumi-card">
+      <div class="titulo">
+        <h2 class="nome-personagem">Megumi</h2>
+      </div>
+      <picture>
+        <source srcset="src/img/megumi.png" media="(min-width: 768px)">
+        <img class="imagem" src="src/img/megumi.png" alt="Personagem Megumi">
+      </picture>
+      <div class="conteudo">
+        <p class="descricao">Base de chocolate, ovo maltine e bolinhas de nescalball.</p>
+      </div>
+    </div>
+
+    <!-- Nobara -->
+    <div class="personagem selecionado" id="nobara-card">
+      <div class="titulo">
+        <h2 class="nome-personagem">Nobara</h2>
+      </div>
+      <picture>
+        <source srcset="src/img/nobara.png" media="(min-width: 768px)">
+        <img class="imagem" src="src/img/nobara.png" alt="Personagem Nobara">
+      </picture>
+      <div class="conteudo">
+        <p class="descricao">Base de Baunilha, creme de morango e bolinhas de tutti-frutti.</p>
+      </div>
+    </div>
+
+    <!-- Itadori -->
+    <div class="personagem selecionado" id="itadori-card">
+      <div class="titulo">
+        <h2 class="nome-personagem">Itadori</h2>
+      </div>
+      <picture>
+        <source srcset="src/img/itadori.png" media="(min-width: 768px)">
+        <img class="imagem" src="src/img/itadori.png" alt="Personagem Itadori">
+      </picture>
+      <div class="conteudo">
+        <p class="descricao">Base de Baunilha, creme de caramelo e bolinhas de caramelo.</p>
+      </div>
+    </div>
+
+    <!-- Sukuna -->
+    <div class="personagem selecionado" id="sukuna-card">
+      <div class="titulo">
+        <h2 class="nome-personagem">Sukuna</h2>
+      </div>
+      <picture>
+        <source srcset="src/img/sukuna.png" media="(min-width: 768px)">
+        <img class="imagem" src="src/img/sukuna.png" alt="Personagem Sukuna">
+      </picture>
+      <div class="conteudo">
+        <p class="descricao">Base de morango, chantilly e bolinhas de chocolate.</p>
+      </div>
+    </div>
+
+    <!-- Seção de comentários -->
+    <section class="comentarios">
+      <h2>Comentários</h2>
+
+      <form id="formComentario">
+        <textarea id="inputComentario" placeholder="Escreva seu comentário/idéia..." required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div id="listaComentarios"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Shakes Amaldiçoados - Criado e modificado por LorranG</p>
+    <p>Contato: <a href="mailto:lorrangiraldi1@gmail.com">lorrangiraldi1@gmail.com</a></p>
+    <p>Última atualização: 27/10/2025</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/lorran-g-4050a4359/">Lorran Giraldi</a></p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="src/js/comentarios.js"></script>
+  <script src="src/js/fundo.js"></script>
+
+</body>
+
+</html>
